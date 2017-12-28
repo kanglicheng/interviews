@@ -11,6 +11,8 @@ A quick study sheet I use as a refresher :smile:
 - [Programming Languages](#programming-languages)
 - [Problem-solving Strategies](#problem-solving-strategies)
 
+Also, there's much more to computer science than these simple topics! There are a multitude of online resources for broadening and deepening your core CS knowledge; https://teachyourselfcs.com/ is one such site.
+
 ## Data Structures
 ### Array
 * An *array* is a collection with specified size
@@ -24,8 +26,8 @@ A quick study sheet I use as a refresher :smile:
 
 ### Linked List
 * A *linked list* is a collection of nodes where each node has a value and a reference
-* **Singly-linked list**: nodes have pointers to the next node
-* **Doubly-linked list**: nodes have pointers to next and previous nodes
+* **Singly linked list**: nodes have pointers to the next node
+* **Doubly linked list**: nodes have pointers to next and previous nodes
 * Time complexity:
   * Access by index: `O(n)`
   * Search by value: `O(n)`
@@ -109,7 +111,7 @@ A quick study sheet I use as a refresher :smile:
   * Heapify in `O(n)`
   * Find min in `O(1)`
   * Extract min, increase key, insert, delete in `O(log n)`
-  * Can implement as a list where a node at index `i` has children at `2i+1` and `2i+2`
+  * Can implement as a list where a node at index `i` has children at `2i+1` and `2i+2` (0-indexed)
 
 ### Graph
 * A *graph* is a collection of nodes and edges and can be directed or undirected
@@ -666,6 +668,7 @@ func main() {
 }
 ```
 * Go has built-in support for parallel programming with goroutines and channels
+* [How Goroutines Work](http://blog.nindalf.com/how-goroutines-work/)
 
 
 ## Problem-solving Strategies
